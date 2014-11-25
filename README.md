@@ -3,7 +3,6 @@
 ### Description
 A python program to query Blue Coat SiteReview for a URL's category.
 
-
 ### Usage
 usage: SiteReviewSearch.py [options] filename
 
@@ -20,4 +19,5 @@ optional arguments:
 
 ### Requirements
 *Beautiful Soup 4 Library ; http://www.crummy.com/software/BeautifulSoup/#Download
+
 *Requests Library         ; https://pypi.python.org/pypi/requests
