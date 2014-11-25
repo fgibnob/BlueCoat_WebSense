@@ -18,6 +18,5 @@ optional arguments:
   --version             show program's version number and exit
 
 ### Requirements
-*Beautiful Soup 4 Library ; http://www.crummy.com/software/BeautifulSoup/#Download
-
-*Requests Library         ; https://pypi.python.org/pypi/requests
+- Beautiful Soup 4 Library ; http://www.crummy.com/software/BeautifulSoup/#Download
+- Requests Library         ; https://pypi.python.org/pypi/requests
