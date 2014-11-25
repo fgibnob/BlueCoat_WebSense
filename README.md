@@ -1,5 +1,4 @@
-BlueCoat_WebSense
-=================
+# BlueCoat_WebSense
 
 A python program to query Blue Coat SiteReview for a URL's category.
 
