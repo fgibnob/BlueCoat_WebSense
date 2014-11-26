@@ -20,3 +20,4 @@ optional arguments:
 ### Requirements
 - Beautiful Soup 4 Library ; http://www.crummy.com/software/BeautifulSoup/#Download
 - Requests Library         ; https://pypi.python.org/pypi/requests
+- Python 3
