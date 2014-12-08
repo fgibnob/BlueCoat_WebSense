@@ -24,10 +24,14 @@ History:
     25/11/2014  0.0.6 reformatted terminal output
 
 Todo:
-    Add handling for URLs without a category but rated by the WebPulse system
-    Add handling for URLs that are not rated
-    Add command line options single URL queries
-    Add output to json file
+    add handling for URLs without a category but rated by the WebPulse system
+    add handling for URLs that are not rated
+    add command line options single URL queries
+    add output to json file
+    fix handling of filename input ie, parser.add_argument('file', type=argparse.FileType('r'))
+        https://docs.python.org/2/library/argparse.html#type
+        currently the filename argument accepts any string
+    add option to submit url as an argument
 
 Bugs:
     24/10/2014: BUG001 Web sites that are rated with the WebPulse system and do not return a Last Time/Reviewed date
