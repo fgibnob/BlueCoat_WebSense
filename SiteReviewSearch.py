@@ -32,6 +32,7 @@ Todo:
         https://docs.python.org/2/library/argparse.html#type
         currently the filename argument accepts any string
     add option to submit url as an argument
+    add handler for internal ip ranges
 
 Bugs:
     24/10/2014: BUG001 Web sites that are rated with the WebPulse system and do not return a Last Time/Reviewed date
