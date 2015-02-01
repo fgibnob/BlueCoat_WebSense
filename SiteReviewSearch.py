@@ -33,6 +33,7 @@ Todo:
         currently the filename argument accepts any string
     add option to submit url as an argument
     add handler for internal ip ranges
+    add option to sanitize URL by adding '[' and ']' either side of the : in URL
 
 Bugs:
     24/10/2014: BUG001 Web sites that are rated with the WebPulse system and do not return a Last Time/Reviewed date
