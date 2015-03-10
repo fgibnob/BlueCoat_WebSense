@@ -21,3 +21,7 @@ optional arguments:
 - Beautiful Soup 4 Library ; http://www.crummy.com/software/BeautifulSoup/#Download
 - Requests Library         ; https://pypi.python.org/pypi/requests
 - Python 3
+
+### Todo
+- [ ] accept url or ip as positional argument
+- [ ] add support for local pickle database
