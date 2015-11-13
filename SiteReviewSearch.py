@@ -3,8 +3,8 @@
 __description__  = 'Program to query Blue Coat SiteReview for a URLs category'
 __requirements__ = 'Beautiful Soup 4 Library ; http://www.crummy.com/software/BeautifulSoup/#Download' \
                    'Requests Library         ; https://pypi.python.org/pypi/requests'
-__author__       = 'Simon Lavigne'
-__email__        = 's i m o n l v g n at g m a i l . c o m'
+__author__       = 'SL'
+__email__        = ''
 __version__      = '0.1.0'
 __date__         = '25/11/2014'
  
