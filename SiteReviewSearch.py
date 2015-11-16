@@ -22,6 +22,7 @@ History:
     18/11/2014: 0.0.5 added argparse support for a input files
     18/11/2014: 0.0.5 added restriction on number of requests per minute
     25/11/2014  0.0.6 reformatted terminal output
+	16/11/2015  0.0.7 added support for threat risk level
 
 Todo:
     add handling for URLs without a category but rated by the WebPulse system
@@ -82,7 +83,7 @@ class LogToCSV():
 def DrinkSoup(a):
 # strip HTML tags from requests content
  
-    soup = BeautifulSoup(a)
+    soup = BeautifulSoup(a, "html.parser")
     return soup.get_text()
  
  
@@ -115,11 +116,12 @@ def SiteReviewSearch(filename, options):
  
             json_response = json.loads(data)
             last_review = (GetDateReviewed(json_response['ratedate']))
-            formats = ('%s', '%s', '%s', '%s')
-            parameters = (json_response['url'], json_response['categorization'], json_response['unrated'], last_review)
-            print('url            :', json_response['url'])
-            print('categorization :', json_response['categorization'])
-            print('unrated        :', json_response['unrated'])
+            formats = ('%s', '%s', '%s', '%s', '%s')
+            parameters = (json_response['url'], json_response['categorization'], json_response['unrated'], json_response['threatrisklevel'], last_review)
+            print('url               :', json_response['url'])
+            print('categorization    :', json_response['categorization'])
+            print('unrated           :', json_response['unrated'])
+            print('threat risk level :', json_response['threatrisklevel'])
             if json_response['unrated'] == True:
                 print('last review:   : Not reviewed')
             else:
