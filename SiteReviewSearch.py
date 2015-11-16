@@ -22,7 +22,7 @@ History:
     18/11/2014: 0.0.5 added argparse support for a input files
     18/11/2014: 0.0.5 added restriction on number of requests per minute
     25/11/2014  0.0.6 reformatted terminal output
-	16/11/2015  0.0.7 added support for threat risk level
+    16/11/2015  0.0.7 added support for threat risk level
 
 Todo:
     add handling for URLs without a category but rated by the WebPulse system
