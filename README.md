@@ -26,3 +26,12 @@ optional arguments:
 - [ ] accept url or ip as positional argument.
 - [ ] add support for local pickle database.
 - [ ] add function to leverage K9 API to allow unlimited lookups.
+- [ ] add handling for URLs without a category but rated by the WebPulse system.
+- [ ] add handling for URLs that are not categorised.
+- [ ] add command line option for single URL queries.
+- [ ] add option to save output to json file.
+- [ ] fix handling of filename input ie, parser.add_argument('file', type=argparse.FileType('r'))
+        https://docs.python.org/2/library/argparse.html#type
+        currently the filename argument accepts any string
+- [ ] create handler for internal ip ranges.
+- [ ] add option to sanitize URL by adding '[' and ']' either side of the : in URL.
