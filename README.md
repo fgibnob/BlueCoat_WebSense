@@ -23,5 +23,6 @@ optional arguments:
 - Python 3
 
 ### Todo
-- [ ] accept url or ip as positional argument
-- [ ] add support for local pickle database
+- [ ] accept url or ip as positional argument.
+- [ ] add support for local pickle database.
+- [ ] add function to leverage K9 API to allow unlimited lookups.
