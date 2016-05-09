@@ -109,7 +109,7 @@ def SiteReviewSearch(filename, options):
     with open(filename, 'r') as f:
         for line in f:
             payload = {'url': line}
-            headers = {'Referer': 'http://www.sitereview.bluecoat.com/siterevew.jsp'}
+            headers = {'Referer': 'http://www.sitereview.bluecoat.com/sitereview.jsp'}
             r = requests.post(WEBPULSE_SITEREVIEW_URL, data=payload, headers=headers)
  
             data = DrinkSoup(r.content)
