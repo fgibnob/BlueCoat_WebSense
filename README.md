@@ -1,4 +1,6 @@
-# BlueCoat_WebSense
+# Defunct 
+
+### BlueCoat_WebSense
 
 ### Description
 A python program to query Blue Coat SiteReview for a URL's category.
